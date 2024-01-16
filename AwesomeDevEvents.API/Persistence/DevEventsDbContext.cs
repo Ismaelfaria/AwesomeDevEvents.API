@@ -7,6 +7,7 @@ namespace AwesomeDevEvents.API.Persistence
 
         public List<DevEvent> DevEvents { get; set; }
         public DevEventsDbContext()
+
         {
             DevEvents = new List<DevEvent>();
         }
